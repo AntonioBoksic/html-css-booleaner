@@ -9,8 +9,6 @@ main, footer {
     text-align: left;
 }
 
-ul [
-]
 
 /* Header rules */
 
@@ -49,6 +47,13 @@ header {
 .foto-principali {
     font-size: smaller;
 }
+
+/* lista */
+
+ul { 
+	
+    padding:0;
+	}
 
 /* tabella */
 
