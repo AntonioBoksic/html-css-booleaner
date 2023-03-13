@@ -4,6 +4,10 @@ body {
     padding:0;
 }
 
+main, footer {
+    margin-left: 0.5%;
+}
+
 /* Header rules */
 
 header {
@@ -21,28 +25,25 @@ header {
 
 /* Body Rules */
 
-main {
-    margin-left: 0.5%;
-}
-
 .titolo {
     font-size: larger;
 }
 
-.nomeautore {
+.scritto-da {
+    color: #939393;
+}
+
+.nome-autore {
     color: #3eb8e9;
 }
 
 .data {
     font-size: smaller;
+    color: #939393;
 }
 
 .fotoprincipali {
     font-size: smaller;
-}
-
-highlighted {
-    background-color: gold;
 }
 
 /* tabella */
@@ -69,4 +70,28 @@ highlighted {
 
 #riga1,#riga3 {
     background-color: #b2e6f2;
+}
+
+/* footer rules */
+#footer-title {
+    color: #939393;
+}
+
+.img-footer {
+    color: white;
+    font-size: large;
+    padding: 15px;
+    height:160px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#img-footer1 {
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+}
+
+#img-footer2 {
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
 }
