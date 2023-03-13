@@ -1,0 +1,18 @@
+/* General rules */
+body {
+    margin: 0;
+    padding:0;
+}
+
+header {
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-color: #4da1ff;
+}
+
+#logo {
+width: 15%;
+height: 15%;
+margin-top: 2%;
+margin-left: 0.5%;
+}
