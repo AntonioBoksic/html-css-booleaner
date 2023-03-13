@@ -1,0 +1,105 @@
+/* General rules */
+body {
+    margin: 0;
+    padding:0;
+}
+
+main, footer {
+    margin: 0% 10% 0% 10%;
+    text-align: left;
+}
+
+ul [
+]
+
+/* Header rules */
+
+header {
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-color: #4da1ff;
+}
+
+#logo {
+    width: 15%;
+    height: 15%;
+    margin-top: 2%;
+    margin-left: 0.5%;
+}
+
+/* Body Rules */
+
+.articolo-titolo {
+    font-size: larger;
+}
+
+.scritto-da {
+    color: #939393;
+}
+
+.autore-nome {
+    color: #3eb8e9;
+}
+
+.data-pubblicazione {
+    font-size: smaller;
+    color: #939393;
+}
+
+.foto-principali {
+    font-size: smaller;
+}
+
+/* tabella */
+
+table {
+    border-collapse: collapse;
+}
+
+#colonna1 {
+    width: 25%;
+
+}
+
+#colonna2 {
+    width: 25%;
+
+}
+
+#colonna3 {
+    width: 48%;
+}
+
+#rigahead {
+    background-color: #1aabe6;
+    color: white;
+
+}
+
+#riga1,#riga3 {
+    background-color: #b2e6f2;
+}
+
+/* footer rules */
+#footer-titolo {
+    color: #939393;
+}
+
+.footer-img {
+    color: white;
+    font-size: large;
+    padding: 15px;
+    height:160px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#footer-img1 {
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+}
+
+#footer-img2 {
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+}
