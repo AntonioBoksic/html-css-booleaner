@@ -4,6 +4,8 @@ body {
     padding:0;
 }
 
+/* Header rules */
+
 header {
     background-image: url(../img/pattern.png);
     background-size: contain;
@@ -11,8 +13,60 @@ header {
 }
 
 #logo {
-width: 15%;
-height: 15%;
-margin-top: 2%;
-margin-left: 0.5%;
+    width: 15%;
+    height: 15%;
+    margin-top: 2%;
+    margin-left: 0.5%;
+}
+
+/* Body Rules */
+
+main {
+    margin-left: 0.5%;
+}
+
+.titolo {
+    font-size: larger;
+}
+
+.nomeautore {
+    color: #3eb8e9;
+}
+
+.data {
+    font-size: smaller;
+}
+
+.fotoprincipali {
+    font-size: smaller;
+}
+
+highlighted {
+    background-color: gold;
+}
+
+/* tabella */
+
+#colonna1 {
+    width: 25%;
+
+}
+
+#colonna2 {
+    width: 25%;
+
+}
+
+#colonna3 {
+    width: 48%;
+}
+
+#rigahead {
+    background-color: #1aabe6;
+    color: white;
+
+}
+
+#riga1,#riga3 {
+    background-color: #b2e6f2;
 }
