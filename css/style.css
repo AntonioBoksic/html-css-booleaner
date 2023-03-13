@@ -25,7 +25,7 @@ header {
 
 /* Body Rules */
 
-.titolo {
+.articolo-titolo {
     font-size: larger;
 }
 
@@ -33,20 +33,24 @@ header {
     color: #939393;
 }
 
-.nome-autore {
+.autore-nome {
     color: #3eb8e9;
 }
 
-.data {
+.data-pubblicazione {
     font-size: smaller;
     color: #939393;
 }
 
-.fotoprincipali {
+.foto-principali {
     font-size: smaller;
 }
 
 /* tabella */
+
+table {
+    border-collapse: collapse;
+}
 
 #colonna1 {
     width: 25%;
@@ -73,11 +77,11 @@ header {
 }
 
 /* footer rules */
-#footer-title {
+#footer-titolo {
     color: #939393;
 }
 
-.img-footer {
+.footer-img {
     color: white;
     font-size: large;
     padding: 15px;
@@ -86,12 +90,12 @@ header {
     margin-bottom: 10px;
 }
 
-#img-footer1 {
+#footer-img1 {
     background-image: url(../img/monitor.jpg);
     background-size: cover;
 }
 
-#img-footer2 {
+#footer-img2 {
     background-image: url(../img/graph.jpg);
     background-size: cover;
 }
